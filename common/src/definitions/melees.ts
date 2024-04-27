@@ -134,7 +134,7 @@ export const Melees: MeleeDefinition[] = [
         idString: "gas_can",
         name: "Gas Can",
         itemType: ItemType.Melee,
-        damage: 22,
+        damage: 20,
         obstacleMultiplier: 1,
         radius: 1.75,
         offset: Vec.create(3.1, 0.5),

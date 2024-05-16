@@ -925,7 +925,7 @@ export const Guns = ObjectDefinitions.create<GunDefinition>()(
                 position: Vec.create(4, 0.5)
             }],
             ballistics: {
-                damage: 21,
+                damage: 19,
                 obstacleMultiplier: 1.5,
                 speed: 0.3,
                 range: 180

@@ -270,7 +270,7 @@ export const Guns = ObjectDefinitions.create<GunDefinition>()(
             recoilDuration: 130,
             fireMode: FireMode.Auto,
             shotSpread: 2,
-            moveSpread: 7,
+            moveSpread: 5,
             noMuzzleFlash: true,
             length: 6.2,
             fists: {
@@ -911,8 +911,8 @@ export const Guns = ObjectDefinitions.create<GunDefinition>()(
             recoilMultiplier: 0.75,
             recoilDuration: 350,
             fireMode: FireMode.Burst,
-            shotSpread: 1,
-            moveSpread: 2.5,
+            shotSpread: 1.5,
+            moveSpread: 4,
             length: 8.6,
             fists: {
                 left: Vec.create(120, -3),
@@ -925,7 +925,7 @@ export const Guns = ObjectDefinitions.create<GunDefinition>()(
                 position: Vec.create(4, 0.5)
             }],
             ballistics: {
-                damage: 21,
+                damage: 20,
                 obstacleMultiplier: 1.5,
                 speed: 0.3,
                 range: 180
@@ -1011,7 +1011,7 @@ export const Guns = ObjectDefinitions.create<GunDefinition>()(
             recoilDuration: 150,
             fireMode: FireMode.Auto,
             shotSpread: 3,
-            moveSpread: 6.75,
+            moveSpread: 6.25,
             length: 6.9, // nice
             noMuzzleFlash: true,
             fists: {
